@@ -17,9 +17,9 @@ While this is extremely useful, what we really need is a tool that is always lis
 
 Prevented Scenario:
 -
-* A hacker has successfully managed to social engineer his/her way into the building of a corporate/government entity, and has just connected their laptop to the local network to start collecting traffic and secrets.
-  - Since no one was actively searching for devices running in promiscuous mode, the attacker has a shot at escaping undetected.
-  - The attacker could walk in and out with their laptop, and no one would have any record that the device was ever connected, let alone that traffic had been collected.
+A hacker has successfully managed to social engineer his/her way into the building of a corporate/government entity, and has just connected their laptop to the local network to start collecting traffic and secrets.
+- Since no one was actively searching for devices running in promiscuous mode, the attacker has a shot at escaping undetected.
+- The attacker could walk in and out with their laptop, and no one would have any record that the device was ever connected, let alone that traffic had been collected.
 
 
 Being Proactive
