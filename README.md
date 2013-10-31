@@ -37,4 +37,4 @@ How it works
 
 References
 -
-
+[1] http://www.securityfriday.com/promiscuous_detection_01.pdf
