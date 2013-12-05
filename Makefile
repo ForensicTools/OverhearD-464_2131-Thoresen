@@ -3,12 +3,12 @@ EXEC = overheard
 CC = g++
 
 # Flags
-CFLAGS       = -std=c++0x -pthread -c
-LDFLAGS      = -std=c++0x -pthread
+CFLAGS       = -std=c++0x -pthread -lpcap -c
+LDFLAGS      = -std=c++0x -pthread -lpcap
 
 # Locations
 OUTDIR  = bin
-SOURCES = src/overheard.cc src/core/log.cc src/core/ui.cc
+SOURCES = src/overheard.cc src/core/log.cc src/core/ui.cc src/net/host.cc
 OBJECTS = $(SOURCES:.cc=.o)
 OBJOUT  = $(addprefix $(OUTDIR)/, $(OBJECTS))
 
