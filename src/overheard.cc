@@ -4,6 +4,7 @@
 #include <thread>
 #include <mutex>
 #include <map>
+#include "core/host.hh"
 
 using namespace std;
 
@@ -14,14 +15,17 @@ static mutex mtx;
 void threadTest(int threadId);
 
 /** 
- * A simple test to see whether or not threads are working
- * outputs the threadId every 2 seconds.
+ * Main entry point for the program
  */
-int main(int argc, char ** argv) { 
-    thread coreThread(threadTest, 0);
-    thread SecondaryThread(threadTest, 1);
-    coreThread.join();
-    SecondaryThread.join();
+int main(int argc, char* argv[]) {
+
+    // Collection of discovered hosts
+    map<int, Host> hostsCollection;
+    
+    // thread probeThread(threadTest, 0);
+    // thread SecondaryThread(threadTest, 1);
+    // coreThread.join();
+    // SecondaryThread.join();
     return 0;
 }
 

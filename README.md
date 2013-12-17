@@ -15,7 +15,7 @@ http://nmap.org/nsedoc/scripts/sniffer-detect.html
 While this is extremely useful, what we really need is a tool that is always listening, always conducting tests, and always keeping track of hosts. 
 
 
-Prevented Scenario:
+Prevented Scenario
 -
 A hacker has successfully managed to social engineer his/her way into the building of a corporate/government entity, and has just connected their laptop to the local network to start collecting traffic and secrets.
 - Since no one was actively searching for devices running in promiscuous mode, the attacker has a shot at escaping undetected.
